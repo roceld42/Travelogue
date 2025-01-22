@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Chango&family=Gowun+Dodum&family=Magra:wght@400;700&family=Oswald:wght@200..700&display=swap');
 body {
     background-color: rgb(225, 227, 223);
     margin: 0px;
@@ -7,4 +8,10 @@ header {
     background-color: rgb(185, 204, 194);
     padding: 5px 12%;
     text-align: center;
+}
+
+p {
+    font-family: "Magra", serif;
+    font-weight: 400;
+    font-style: normal;
 }
