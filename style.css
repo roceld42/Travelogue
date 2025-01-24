@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Chango&family=Gowun+Dodum&family=Magra:wght@400;700&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Magra:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&display=swap');
 body {
     background-color: rgb(225, 227, 223);
     margin: 0px;
 }
 
-header {
+header, footer {
     background-color: rgb(185, 204, 194);
     padding: 5px 12%;
     text-align: center;
@@ -14,4 +15,23 @@ p {
     font-family: "Magra", serif;
     font-weight: 400;
     font-style: normal;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Carrois Gothic SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2, h3, h4 {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+img {
+    display: flex;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 30px;
+    max-width: 40%;
 }
