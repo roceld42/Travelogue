@@ -3,7 +3,10 @@
 body {
     background-color: rgb(225, 227, 223);
     margin: 0px;
+    color: rgb(65, 77, 72);
+    line-height: 1.6;
 }
+
 
 header, footer {
     background-color: rgb(185, 204, 194);
@@ -29,9 +32,9 @@ h2, h3, h4 {
 }
 
 img {
-    display: flex;
+    display: block;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    margin: 30px;
+    margin: auto;
     max-width: 40%;
 }
