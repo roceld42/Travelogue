@@ -7,7 +7,6 @@ body {
     line-height: 1.6;
 }
 
-
 header, footer {
     background-color: rgb(185, 204, 194);
     padding: 5px 12%;
@@ -31,18 +30,10 @@ h2, h3, h4 {
     font-weight: 600;
 }
 
-figure {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 0.5em 1em 0.5em;
-}
-
-figure img {
+img {
     display: block;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
     margin: auto;
     max-width: 40%;
-}
-
-figure p {
-    text-align: center;
 }
