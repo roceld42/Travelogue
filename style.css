@@ -37,3 +37,7 @@ img {
     margin: auto;
     max-width: 40%;
 }
+
+#restaurant {
+    text-align: center;
+}
